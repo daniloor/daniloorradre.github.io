@@ -19,15 +19,16 @@
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body id="page-top" class="bg-dark">
+<body id="page-top">
 
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/RUEDITA.svg" alt="" /></a>
+            <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="assets/img/logo.svg" alt="" /></a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
+                Menu
                 <i class="fas fa-bars ml-1"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -41,47 +42,50 @@
         </div>
     </nav>
 
-
-
-
-
-  
     
-    <div id="backgroundCarousel" class="carousel slide" data-ride="carousel">
-       <div class="carousel-inner">
-          <div class="carousel-item active" data-interval="10000">
-          </div>
-          <div class="carousel-item" data-interval="2000">            
-          </div>
-          <div class="carousel-item">
-          </div>
-          <div class="carousel-item">
-          </div>
-          <div class="carousel-item">
-          </div>
-          <div class="carousel-item">
-          </div>
-          <div class="carousel-item">
-          </div>
-        </div>        
-    </div>
+    
 
 
-    <!-- Masthead-->
-    <header class="masthead pb-20">
+
+
+    <!-- Pasos-->
+    <section class="page-section" id="about">
         <div class="container">
-            <!-- <div class="masthead-subheading">+1000 establecimientos adheridos</div>  -->
-            <div class="masthead-heading"><img src="assets/img/logo.svg" id="logo" width="" alt="" /></div>
-            <div>
-                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="categories.html">Saca tu turno!</a>
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Adherí tu local</h2>
+                <h3 class="section-subheading text-muted">Para adherí tu local segui los dos siguientes pasos, es muy sencillo!</h3>
             </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/android.png"
+                            alt="" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="subheading">Descarga la aplicación</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Ingresa aquí para descargar la aplicación en PlayStore. Actualmente solo está disponible para dispositivos android.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/logo.svg"
+                            alt="" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="subheading">Ingresá y registrá tu lugar</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Una vez descargada la aplicación, ingresá en "Registrá tu lugar" y seguí las instrucciones.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
-    </header>
-
-
+    </section>
     
     <!-- Footer-->
-    <!-- <footer class="footer py-4">
+    <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-4 text-lg-left">Copyright © Ya tenes turno?</div>
@@ -96,7 +100,7 @@
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer>
     
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

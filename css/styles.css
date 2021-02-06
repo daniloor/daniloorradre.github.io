@@ -10484,9 +10484,9 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 #backgroundCarousel {
   z-index: -99999;
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
+  position: fixed;
+  height: 100%;
+  width: 100%;
 }
 
 #backgroundCarousel .carousel-inner {
@@ -10504,7 +10504,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-position: center;
 }
 
-#backgroundCarousel .carousel-inner .carousel-item:nth-child(2) {
+ #backgroundCarousel .carousel-inner .carousel-item:nth-child(2) {
   position: relative;
   height: 100%;
   width: 100%;
@@ -10512,6 +10512,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-size: cover;
   background-position: center;
 }
+
 
 #backgroundCarousel .carousel-inner .carousel-item:nth-child(3) {
   position: relative;
@@ -10562,12 +10563,15 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 30%;
 }
 
-@media (max-width: 575.98px) { 
+@media (max-width: 991.98px) { 
   #logo {
     width: 50%;
   }
 }
 
+header.masthead {
+  padding-top: 10rem;
+}
 
 
 
