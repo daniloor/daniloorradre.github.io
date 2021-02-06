@@ -39,57 +39,77 @@
         </div>
     </nav>
 
-    
+
 
 
 
     <!--Categories -->
     <section class="page-section" id="portfolio">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Categorias</h2>
-                <h3 class="section-subheading text-muted">Elegí el rubro para conocer los establecimientos disponibles</h3>
+        <div id="searcher" class="container">
+            <div class="row mb-3 justify-content-between">
+                <div class="col-md-3">
+                    <select class="custom-select" id="categoryFilter">
+                        <option selected>Filtrar...</option>
+                        <option value="1">Spa</option>
+                        <option value="2">Peluqueria</option>
+                        <option value="3">Barberias</option>
+                      </select>
+                </div>
+                <div class="col-md-5">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Buscar por nombre">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" href="searchmenudeporte.html">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+
+            <div class="row justify-content-center">
+                <div class="card mb-3 border-left-0 border-right-0">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-4">
+                            <img src="assets/img/spa.jpg" alt="..." class="img-fluid" />
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Las terrazas</h5>
+                                <p class="card-text">
+                                    4 canchas de padel con iluminacion.
+                                </p>
+                                <p class="card-text">
+                                    $ 150/h.
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-muted">Ituzaingo 405</small>
+                                </p>
+                                <a href="#" class="btn btn-primary">Sacar turno</a>
                             </div>
-                            <img class="img-fluid" src="assets/img/futbol.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Deportivo</div>
-                            <div class="portfolio-caption-subheading text-muted">Futbol 5, Padel, Gimnasio...</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" href="searchmenupeluqueria.html">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/peluqueria.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Estética y Relajación</div>
-                            <div class="portfolio-caption-subheading text-muted">Peluquería, Spa...</div>
+                <div class="card mb-3 border-left-0 border-right-0">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-4">
+                            <img src="assets/img/peluqueria.jpg" alt="..." class="img-fluid" />
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" href="searchmenugastronomia.html">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Las canchitas</h5>
+                                <p class="card-text">
+                                    5 canchas de futbol 5 de cesped sintetico.
+                                </p>
+                                <p class="card-text">
+                                    $ 1200/h.
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-muted">Grimaldi 2732</small>
+                                </p>
+                                <a href="#" class="btn btn-primary">Sacar turno</a>
                             </div>
-                            <img class="img-fluid" src="assets/img/restaurante.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Gastronómico</div>
-                            <div class="portfolio-caption-subheading text-muted">Restaurantes, Bares...</div>
                         </div>
                     </div>
                 </div>
@@ -114,7 +134,7 @@
             </div>
         </div>
     </footer>
-    
+
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>

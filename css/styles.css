@@ -10563,15 +10563,21 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 30%;
 }
 
-@media (max-width: 991.98px) { 
-  #logo {
-    width: 50%;
-  }
-}
+
 
 header.masthead {
   padding-top: 10rem;
 }
 
+#searcher {
+  width: 60vw;
+}
 
-
+@media (max-width: 991.98px) { 
+  #logo {
+    width: 50%;
+  }
+  #searcher {
+    width: 90vw;
+  }
+}
