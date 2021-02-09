@@ -4362,6 +4362,10 @@ input[type=button].btn-block {
   margin-bottom: 0;
 }
 
+.card-text {
+  margin: 0.5rem;
+}
+
 .card-text:last-child {
   margin-bottom: 0;
 }
@@ -10048,7 +10052,8 @@ img::-moz-selection {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  /* background-color: #212529; */
+  background-color: #000;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10098,7 +10103,8 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    /* background-color: #212529; */
+    background-color: #000;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -10499,7 +10505,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   position: relative;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("../assets/img/gym.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("../assets/img/gym.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -10508,7 +10514,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   position: relative;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url('../assets/img/padel.jpeg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),url('../assets/img/padel.jpeg');
   background-size: cover;
   background-position: center;
 }
@@ -10518,7 +10524,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   position: relative;
   height: 100%;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url('../assets/img/peluqueria.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),url('../assets/img/peluqueria.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -10527,7 +10533,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   position: relative;
   height: 100%;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url('../assets/img/futbol.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),url('../assets/img/futbol.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -10536,7 +10542,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   position: relative;
   height: 100%;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url('../assets/img/manicura.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),url('../assets/img/manicura.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -10545,7 +10551,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   position: relative;
   height: 100%;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url('../assets/img/tenis.jfif');
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),url('../assets/img/tenis.jfif');
   background-size: cover;
   background-position: center;
 }
@@ -10554,13 +10560,29 @@ section#contact form#contactForm :-ms-input-placeholder {
   position: relative;
   height: 100%;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url('../assets/img/gym2.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),url('../assets/img/gym2.jpg');
   background-size: cover;
   background-position: center;
 }
 
 #logo {
   width: 30%;
+}
+
+.masthead .container {
+  margin:auto;
+}
+
+#navbarLogo {
+  position: absolute;
+  z-index: 99999;
+  height: 100px;
+  top: 20%;
+  left: 8vw;
+}
+
+#navbarLine {
+  background-color: rgb(255,134,114);; width: 100%; height: 8px; z-index: 99998; position: absolute; left: 0%; top: 65px;
 }
 
 
@@ -10579,5 +10601,55 @@ header.masthead {
   }
   #searcher {
     width: 90vw;
+  }
+  #navbarLogo,#navbarLine {
+    height: 0;
+  }
+}
+
+.show-card {
+  padding: 1%; box-shadow: 0 0.5em 0.5em 0em rgb(230, 225, 225),0 -0.5em 0.5em 0em rgb(230, 225, 225),-0.5em 0 0.5em 0em rgb(230, 225, 225),0.5em 0 0.5em 0em rgb(230, 225, 225);  
+  border-radius: 1%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.show-card-image {
+  border: solid 1px rgb(155, 153, 153); width: 100%; aspect-ratio: 1; margin: auto; border-radius: 10%;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.show-card-title {
+  font-size: large; font-weight: 600;
+}
+
+.show-card-description {
+  font-size: small;
+}
+
+.show-card-button {
+  margin: auto;
+}
+
+.show-card-location {
+  font-size: small;
+}
+
+@media (min-width: 991.98px) { 
+  .show-card-button a {
+    font-size: large;
+  }
+  .show-card-title {
+    font-size: x-large;
+  }
+  .show-card-description {
+    font-size: medium;
+    margin-top: 0.5rem;
+  }
+  .show-card-image {
+    width: 80%;
   }
 }
