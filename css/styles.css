@@ -10605,6 +10605,36 @@ header.masthead {
   #navbarLogo,#navbarLine {
     height: 0;
   }
+
+  #backgroundCarousel .carousel-inner .carousel-item {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/img/gym.jpg");
+  }
+  
+   #backgroundCarousel .carousel-inner .carousel-item:nth-child(2) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../assets/img/padel.jpeg');
+  }
+  
+  
+  #backgroundCarousel .carousel-inner .carousel-item:nth-child(3) {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../assets/img/peluqueria.jpg');
+  }
+  
+  #backgroundCarousel .carousel-inner .carousel-item:nth-child(4) {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../assets/img/futbol.jpg');
+  }
+  
+  #backgroundCarousel .carousel-inner .carousel-item:nth-child(5) {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../assets/img/manicura.jpg');
+  }
+  
+  #backgroundCarousel .carousel-inner .carousel-item:nth-child(6) {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../assets/img/tenis.jfif');
+  }
+  
+  #backgroundCarousel .carousel-inner .carousel-item:nth-child(7) {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../assets/img/gym2.jpg');
+  }
+  
 }
 
 .show-card {
@@ -10614,9 +10644,11 @@ header.masthead {
 }
 
 .show-card-image {
-  border: solid 1px rgb(155, 153, 153); width: 100%; aspect-ratio: 1; margin: auto; border-radius: 10%;
+  border: solid 1px rgb(155, 153, 153);
+  border-radius: 10%;
+  width: 100%;
+  aspect-ratio: 1;
   position: relative;
-  height: 100%;
   width: 100%;
   background-size: cover;
   background-position: center;
