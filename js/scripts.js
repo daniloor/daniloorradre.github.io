@@ -50,12 +50,24 @@
 //      }
 //  };
     // Collapse now if page is not at top
-    navbarCollapse();
+ //   navbarCollapse();
     // Collapse the navbar when page is scrolled
-    $(window).scroll(navbarCollapse);
+ //   $(window).scroll(navbarCollapse);
+
+ 
+
 })(jQuery); // End of use strict
 
 
 $(document).ready(function() {
     $('.carousel').carousel({interval: 7000});
   });
+
+
+ $(document).ready( function() {
+     if (screen.width >= 768) {
+         $('.show-card-a').on('click', function (event) {
+             event.preventDefault();
+         });
+     }
+ });
